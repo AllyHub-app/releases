@@ -51,6 +51,22 @@
       ],
       "published": "2026-11-19T12:37:24Z"
     },
+    "plugin-forms": {
+      "version": "0.3.1",
+      "tag": "plugin-forms-v0.3.1",
+      "source": "AllyHub-app/plugin-forms",
+      "assets": [
+        "SHA256SUMS",
+        "SHA256SUMS.sig",
+        "plugin-forms-darwin-universal",
+        "plugin-forms-darwin-universal.tar.gz",
+        "plugin-forms-linux-amd64",
+        "plugin-forms-linux-amd64.tar.gz",
+        "plugin-forms-linux-arm64",
+        "plugin-forms-linux-arm64.tar.gz"
+      ],
+      "published": "2026-11-19T12:37:46Z"
+    },
     "plugin-keephome": {
       "version": "0.2.1",
       "tag": "plugin-keephome-v0.2.1",
