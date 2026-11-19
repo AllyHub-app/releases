@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "plugins": [
+    {
+      "id": "allyhub.computer",
+      "name": "Komputer",
+      "description": "Terminale, procesor, RAM, sesje agentów, dysk i repozytoria tego komputera",
+      "icon": "desktopcomputer",
+      "repo": "AllyHub-app/plugin-computer",
+      "public": true
+    },
+    {
+      "id": "allyhub.forms",
+      "name": "Formularze",
+      "description": "Formularze wysyłane na webhooki (n8n)",
+      "icon": "list.bullet.rectangle",
+      "repo": "AllyHub-app/plugin-forms",
+      "public": true
+    },
+    {
+      "id": "allyhub.keephome",
+      "name": "KeepHome",
+      "description": "Hasła z bazy KeePass (KDBX) — odszyfrowywane tylko na tym urządzeniu",
+      "icon": "key.horizontal",
+      "repo": "AllyHub-app/plugin-keephome",
+      "public": true
+    },
+    {
+      "id": "allyhub.todo",
+      "name": "Zadania",
+      "description": "Lista zadań z terminami",
+      "icon": "checklist",
+      "repo": "AllyHub-app/plugin-todo",
+      "public": true
+    },
+    {
+      "id": "allyhub.places",
+      "name": "Miejsca",
+      "description": "Miejsca na mapie, strefy i webhooki przy wejściu/wyjściu",
+      "icon": "mappin.and.ellipse",
+      "repo": "AllyHub-app/plugin-places",
+      "public": true
+    },
+    {
+      "id": "allyhub.dashboards",
+      "name": "Dashboardy",
+      "description": "Dashboardy z n8n: strony WWW i kafelki z danymi",
+      "icon": "gauge.with.dots.needle.67percent",
+      "repo": "AllyHub-app/plugin-dashboards",
+      "public": true
+    },
+    {
+      "id": "allyhub.docker",
+      "name": "Docker",
+      "description": "Kontenery, compose, logi, powłoka, obrazy i wolumeny przez API Dockera (serwer albo Mac)",
+      "icon": "shippingbox",
+      "repo": "AllyHub-app/plugin-docker",
+      "public": true
+    }
+  ]
+}
