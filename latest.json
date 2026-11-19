@@ -1,4 +1,23 @@
 {
   "schema": 1,
-  "components": {}
+  "components": {
+    "app": {
+      "version": "0.1.59",
+      "tag": "app-v0.1.59",
+      "source": "AllyHub-app/app",
+      "assets": [
+        "AllyHub-macos.zip",
+        "SHA256SUMS",
+        "SHA256SUMS.sig",
+        "ahctl-linux-amd64",
+        "ahctl-linux-arm64",
+        "allyhub-hostd-linux-amd64",
+        "allyhub-hostd-linux-arm64",
+        "allyhub-linux-amd64.tar.gz",
+        "allyhub-linux-arm64.tar.gz",
+        "install-linux.sh"
+      ],
+      "published": "2026-11-19T12:35:20Z"
+    }
+  }
 }
