@@ -60,9 +60,20 @@ say "==> Zamykam AllyHub i demona"
 osascript -e 'quit app "AllyHub"' >/dev/null 2>&1 || true
 sleep 2
 pkill -x AllyHub 2>/dev/null || true
+# Demon — także stara kopia uruchomiona z Pobranych (AppTranslocation).
+# Zawieszony ignoruje SIGTERM i trzyma port 47200, a nowy wtedy nie wstanie
+# („address already in use”) — po 5 s zabijamy siłą.
 pkill -f "AllyHub.app/Contents/MacOS/allyhub-hostd" 2>/dev/null || true
+i=0
+while pgrep -f "AllyHub.app/Contents/MacOS/allyhub-hostd" >/dev/null 2>&1 && [ $i -lt 10 ]; do sleep 0.5; i=$((i + 1)); done
+pkill -9 -f "AllyHub.app/Contents/MacOS/allyhub-hostd" 2>/dev/null || true
+pkill -x AllyHub 2>/dev/null || true
 sleep 1
 rm -f "$HOME/Library/Application Support/AllyHub/hostd.sock"
+if lsof -nP -iTCP:47200 -sTCP:LISTEN >/dev/null 2>&1; then
+	say "Uwaga: port 47200 zajmuje inny proces — AllyHub może nie wystartować:"
+	lsof -nP -iTCP:47200 -sTCP:LISTEN | sed -n 2p
+fi
 
 say "==> Instaluję w $DEST"
 if [ -w "$(dirname "$DEST")" ] && { [ ! -e "$DEST" ] || [ -w "$DEST" ]; }; then
