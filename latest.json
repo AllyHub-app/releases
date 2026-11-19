@@ -2,8 +2,8 @@
   "schema": 1,
   "components": {
     "app": {
-      "version": "0.1.59",
-      "tag": "app-v0.1.59",
+      "version": "0.1.60",
+      "tag": "app-v0.1.60",
       "source": "AllyHub-app/app",
       "assets": [
         "AllyHub-macos.zip",
@@ -17,7 +17,7 @@
         "allyhub-linux-arm64.tar.gz",
         "install-linux.sh"
       ],
-      "published": "2026-11-19T12:35:20Z"
+      "published": "2026-11-19T13:43:39Z"
     },
     "plugin-computer": {
       "version": "0.2.5",
