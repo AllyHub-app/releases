@@ -35,6 +35,22 @@
       ],
       "published": "2026-11-19T12:36:23Z"
     },
+    "plugin-docker": {
+      "version": "0.1.0",
+      "tag": "plugin-docker-v0.1.0",
+      "source": "AllyHub-app/plugin-docker",
+      "assets": [
+        "SHA256SUMS",
+        "SHA256SUMS.sig",
+        "plugin-docker-darwin-universal",
+        "plugin-docker-darwin-universal.tar.gz",
+        "plugin-docker-linux-amd64",
+        "plugin-docker-linux-amd64.tar.gz",
+        "plugin-docker-linux-arm64",
+        "plugin-docker-linux-arm64.tar.gz"
+      ],
+      "published": "2026-11-19T12:37:24Z"
+    },
     "plugin-keephome": {
       "version": "0.2.1",
       "tag": "plugin-keephome-v0.2.1",
