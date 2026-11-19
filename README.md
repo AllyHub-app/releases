@@ -19,7 +19,11 @@ i aktualizować bez konta GitHub. Opis i instrukcja instalacji:
 
 Najnowsza aplikacja zawsze pod tym samym adresem:
 
-- macOS: https://github.com/AllyHub-app/releases/releases/latest/download/AllyHub-macos.zip
+- macOS — instalacja albo aktualizacja jedną komendą w Terminalu (sprawdza sumę,
+  podpis Developer ID i notaryzację; pomaga też, gdy aplikacja wisi na
+  „Łączę z demonem urządzenia”):
+  `curl -fsSL https://raw.githubusercontent.com/AllyHub-app/releases/main/install-mac.sh | sh`
+  (paczka ręcznie: https://github.com/AllyHub-app/releases/releases/latest/download/AllyHub-macos.zip)
 - Linux (serwer, bez interfejsu):
   `curl -fsSL https://github.com/AllyHub-app/releases/releases/latest/download/install-linux.sh | bash`
 
