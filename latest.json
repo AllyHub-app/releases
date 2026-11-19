@@ -84,8 +84,8 @@
       "published": "2026-11-19T12:37:46Z"
     },
     "plugin-keephome": {
-      "version": "0.2.1",
-      "tag": "plugin-keephome-v0.2.1",
+      "version": "0.2.2",
+      "tag": "plugin-keephome-v0.2.2",
       "source": "AllyHub-app/plugin-keephome",
       "assets": [
         "SHA256SUMS",
@@ -97,7 +97,7 @@
         "plugin-keephome-linux-arm64",
         "plugin-keephome-linux-arm64.tar.gz"
       ],
-      "published": "2026-11-19T12:36:58Z"
+      "published": "2026-11-19T13:26:53Z"
     },
     "plugin-places": {
       "version": "0.1.1",
