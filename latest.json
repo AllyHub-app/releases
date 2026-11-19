@@ -68,8 +68,8 @@
       "published": "2026-11-19T12:37:24Z"
     },
     "plugin-forms": {
-      "version": "0.3.1",
-      "tag": "plugin-forms-v0.3.1",
+      "version": "0.3.2",
+      "tag": "plugin-forms-v0.3.2",
       "source": "AllyHub-app/plugin-forms",
       "assets": [
         "SHA256SUMS",
@@ -81,7 +81,7 @@
         "plugin-forms-linux-arm64",
         "plugin-forms-linux-arm64.tar.gz"
       ],
-      "published": "2026-11-19T12:37:46Z"
+      "published": "2026-11-19T15:05:19Z"
     },
     "plugin-keephome": {
       "version": "0.2.2",
