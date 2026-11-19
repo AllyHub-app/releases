@@ -99,6 +99,22 @@
       ],
       "published": "2026-11-19T12:36:58Z"
     },
+    "plugin-places": {
+      "version": "0.1.1",
+      "tag": "plugin-places-v0.1.1",
+      "source": "AllyHub-app/plugin-places",
+      "assets": [
+        "SHA256SUMS",
+        "SHA256SUMS.sig",
+        "plugin-places-darwin-universal",
+        "plugin-places-darwin-universal.tar.gz",
+        "plugin-places-linux-amd64",
+        "plugin-places-linux-amd64.tar.gz",
+        "plugin-places-linux-arm64",
+        "plugin-places-linux-arm64.tar.gz"
+      ],
+      "published": "2026-11-19T12:40:02Z"
+    },
     "plugin-todo": {
       "version": "0.3.0",
       "tag": "plugin-todo-v0.3.0",
