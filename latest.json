@@ -34,6 +34,22 @@
         "plugin-computer-linux-arm64.tar.gz"
       ],
       "published": "2026-11-19T12:36:23Z"
+    },
+    "plugin-keephome": {
+      "version": "0.2.1",
+      "tag": "plugin-keephome-v0.2.1",
+      "source": "AllyHub-app/plugin-keephome",
+      "assets": [
+        "SHA256SUMS",
+        "SHA256SUMS.sig",
+        "plugin-keephome-darwin-universal",
+        "plugin-keephome-darwin-universal.tar.gz",
+        "plugin-keephome-linux-amd64",
+        "plugin-keephome-linux-amd64.tar.gz",
+        "plugin-keephome-linux-arm64",
+        "plugin-keephome-linux-arm64.tar.gz"
+      ],
+      "published": "2026-11-19T12:36:58Z"
     }
   }
 }
