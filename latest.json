@@ -18,6 +18,22 @@
         "install-linux.sh"
       ],
       "published": "2026-11-19T12:35:20Z"
+    },
+    "plugin-computer": {
+      "version": "0.2.5",
+      "tag": "plugin-computer-v0.2.5",
+      "source": "AllyHub-app/plugin-computer",
+      "assets": [
+        "SHA256SUMS",
+        "SHA256SUMS.sig",
+        "plugin-computer-darwin-universal",
+        "plugin-computer-darwin-universal.tar.gz",
+        "plugin-computer-linux-amd64",
+        "plugin-computer-linux-amd64.tar.gz",
+        "plugin-computer-linux-arm64",
+        "plugin-computer-linux-arm64.tar.gz"
+      ],
+      "published": "2026-11-19T12:36:23Z"
     }
   }
 }
