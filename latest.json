@@ -35,6 +35,22 @@
       ],
       "published": "2026-11-19T12:36:23Z"
     },
+    "plugin-dashboards": {
+      "version": "0.1.0",
+      "tag": "plugin-dashboards-v0.1.0",
+      "source": "AllyHub-app/plugin-dashboards",
+      "assets": [
+        "SHA256SUMS",
+        "SHA256SUMS.sig",
+        "plugin-dashboards-darwin-universal",
+        "plugin-dashboards-darwin-universal.tar.gz",
+        "plugin-dashboards-linux-amd64",
+        "plugin-dashboards-linux-amd64.tar.gz",
+        "plugin-dashboards-linux-arm64",
+        "plugin-dashboards-linux-arm64.tar.gz"
+      ],
+      "published": "2026-11-19T12:38:10Z"
+    },
     "plugin-docker": {
       "version": "0.1.0",
       "tag": "plugin-docker-v0.1.0",
