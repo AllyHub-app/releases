@@ -20,8 +20,8 @@
       "published": "2026-11-20T19:35:34Z"
     },
     "plugin-computer": {
-      "version": "0.2.12",
-      "tag": "plugin-computer-v0.2.12",
+      "version": "0.2.13",
+      "tag": "plugin-computer-v0.2.13",
       "source": "AllyHub-app/plugin-computer",
       "assets": [
         "SHA256SUMS",
@@ -33,7 +33,7 @@
         "plugin-computer-linux-arm64",
         "plugin-computer-linux-arm64.tar.gz"
       ],
-      "published": "2026-11-20T18:19:02Z"
+      "published": "2026-11-20T19:39:13Z"
     },
     "plugin-dashboards": {
       "version": "0.1.0",
