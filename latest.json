@@ -100,8 +100,8 @@
       "published": "2026-11-19T13:26:53Z"
     },
     "plugin-places": {
-      "version": "0.1.1",
-      "tag": "plugin-places-v0.1.1",
+      "version": "0.1.2",
+      "tag": "plugin-places-v0.1.2",
       "source": "AllyHub-app/plugin-places",
       "assets": [
         "SHA256SUMS",
@@ -113,7 +113,7 @@
         "plugin-places-linux-arm64",
         "plugin-places-linux-arm64.tar.gz"
       ],
-      "published": "2026-11-19T12:40:02Z"
+      "published": "2026-11-25T13:38:44Z"
     },
     "plugin-todo": {
       "version": "0.3.0",
